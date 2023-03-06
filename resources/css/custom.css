@@ -1,12 +1,26 @@
+html {
+    height: 80%;
+  }
+  body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+   
+  }
+  #digital-clock {
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    font-size: 9vw;
+    color: #000;
+    background-color: gray;
+    border: 2px solid grey;
+    border-radius: 10px;
 
-.bg-nav {
-background-color:#E7F4FB;
-}
-.card {
-    border:1px solid #3333 !important;
-    padding: 5px;
-    margin:15px;
-}
-nav a{
-    text-decoration: none;
-}
+  }
+
+  .red-dot {
+    color: #000;
+  }
