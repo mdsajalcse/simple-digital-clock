@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geometry-genius</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="resources/css/custom.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6edcb902cc.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <div class="container mt-5">
+    <div class="row">
+        <nav class="navbar bg-nav">
+            <div class="container">
+              <a class="navbar-brand fs-2 text"> <strong>Interactive</strong><br>
+                Geometry Genius</a>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-primary"><a href="blog.html"> Blog </a></button>
+              </form>
+            </div>
+          </nav>
+    </div>
+   </div>
+      <div class="container  mt-5">
+        <div class="row">
+         <div class="col-lg-9 grid gap-3">
+            <div class="card-group">
+                <div class="card" id="getcolor">
+                  <img src="resources/images/triangle.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                  <div class="card-body cardbody">
+                    <h5 class="card-title text-center">Triangle</h5>
+                    <p class="card-text text-dark text-center"> Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h</p>
+                    <p class="card-text">
+                        <div class="input-group mb-3">
+                            <input type="text" id="number1" class="form-control" placeholder="b" aria-label="Username">
+                            <span class="input-group-text">cm</span>
+                            <input type="text" id="number2" class="form-control" placeholder="h" aria-label="Server">
+                            <span class="input-group-text">cm</span>
+                        </div>
+                        <div class="btn btn-primary d-block" id="calculate-btn">Calculate</div>
+                       
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="resources/images/rectangle.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                    <div class="card-body mt-4">
+                      <h5 class="card-title text-center">Rectangle</h5>
+                      <p class="card-text text-dark text-center"> Area (A) = W <i class="fa-solid fa-xmark"></i> I</p>
+                      <p class="card-text">
+                          <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder="W" aria-label="w">
+                              <span class="input-group-text">cm</span>
+                              <input type="text" class="form-control" placeholder="I" aria-label="i">
+                              <span class="input-group-text">cm</span>
+                          </div>
+                          <div class="btn btn-primary d-block">Calculate</div>
+                         
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="resources/images/parallelogram.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                    <div class="card-body mt-4">
+                      <h5 class="card-title text-center">parallelogram</h5>
+                      <p class="card-text text-dark text-center"> Area (A) =b <i class="fa-solid fa-xmark"></i> h</p>
+                      <p class="card-text">
+                          <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder="b" aria-label="Username">
+                              <span class="input-group-text">cm</span>
+                              <input type="text" class="form-control" placeholder="h" aria-label="Server">
+                              <span class="input-group-text">cm</span>
+                          </div>
+                          <div class="btn btn-primary d-block">Calculate</div>
+                         
+                    </div>
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3">
+            <h3>Area Calculation</h3>
+            <table>
+              <tr>
+           <td id="triangle-total">1. Trangle &nbsp; &nbsp;  <span>00</span> &nbsp; &nbsp; <button class="btn btn-primary">Convert to m<sup>2</sup></button></td>
+          </tr>
+          </table>
+          </div>
+        </div>
+        </div>
+       
+        <div class="container mt-5">
+            <div class="row">
+             <div class="col-lg-9">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="resources/images/rhombus.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                        <div class="card-body mt-4">
+                          <h5 class="card-title text-center">Rhombus</h5>
+                          <p class="card-text text-dark text-center"> Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> d<sub>1</sub> <i class="fa-solid fa-xmark"></i> d<sub>2</sub> </p>
+                          <p class="card-text">
+                              <div class="input-group mb-3">
+                                  <input type="text" class="form-control" placeholder="d1" aria-label="d1">
+                                  <span class="input-group-text">cm</span>
+                                  <input type="text" class="form-control" placeholder="d2" aria-label="d2">
+                                  <span class="input-group-text">cm</span>
+                              </div>
+                              <div class="btn btn-primary d-block">Calculate</div>
+                             
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="resources/images/pentagon.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Pentagon</h5>
+                          <p class="card-text text-dark text-center"> Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> p <i class="fa-solid fa-xmark"></i> b</p>
+                          <p class="card-text">
+                              <div class="input-group mb-3">
+                                  <input type="text" class="form-control" placeholder="p" aria-label="Username">
+                                  <span class="input-group-text">cm</span>
+                                  <input type="text" class="form-control" placeholder="b" aria-label="Server">
+                                  <span class="input-group-text">cm</span>
+                              </div>
+                              <div class="btn btn-primary d-block">Calculate</div>
+                             
+                        </div>
+                      </div>
+                      <div class="card ">
+                        <img src="resources/images/ellipse.png" class="img-fluid img-thumbnail w-75 mx-auto border-0" alt="...">
+                        <div class="card-body mt-4">
+                          <h5 class="card-title text-center">Ellipse</h5>
+                          <p class="card-text text-dark text-center"> Area (A) = &#8508;ab</p>
+                          <p class="card-text">
+                              <div class="input-group mb-3">
+                                  <input type="text" class="form-control" placeholder="a" aria-label="a">
+                                  <span class="input-group-text">cm</span>
+                                  <input type="text" class="form-control" placeholder="b" aria-label="b">
+                                  <span class="input-group-text">cm</span>
+                              </div>
+                              <div class="btn btn-primary d-block">Calculate</div>
+                             
+                        </div>
+                      </div>
+                  </div>
+             </div>
+            
+
+
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <script src="resources/js/custom.js"></script>
+</body>
+</html>

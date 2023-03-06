@@ -1,0 +1,12 @@
+
+.bg-nav {
+background-color:#E7F4FB;
+}
+.card {
+    border:1px solid #3333 !important;
+    padding: 5px;
+    margin:15px;
+}
+nav a{
+    text-decoration: none;
+}
