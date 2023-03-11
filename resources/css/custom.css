@@ -9,7 +9,7 @@ html {
     background-color: #000;
    
   }
-  #digital-clock {
+  .digital-clock {
     width: 80%;
     font-size: 15px;
     text-align: center;
